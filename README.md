@@ -72,7 +72,7 @@ paper-reader-agent/
 
 ```bash
 git clone https://github.com/laiquet/paper-agent.git
-cd paper-reader-agent
+cd paper-agent
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
 pip install -r requirements.txt
