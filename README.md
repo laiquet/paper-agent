@@ -55,9 +55,9 @@ paper-reader-agent/
 │   ├── tools.py            # Agent tools (@tool decorated functions)
 │   ├── agent.py            # LangChain agent wiring (LLM + tools + prompt)
 │   └── prompts.py          # System prompt defining agent behavior
-├── papers/                 # Downloaded/local PDFs
-├── chroma_db/              # Persisted vector store (auto-created)
-├── summaries/              # Generated markdown summaries
+├── papers/                 # Downloaded/local PDFs (not committed to git)
+├── chroma_db/              # Persisted vector store (auto-created) (not committed to git)
+├── summaries/              # Generated markdown summaries (not committed to git)
 ├── main.py                 # CLI entry point with conversation loop
 ├── requirements.txt        # Python dependencies
 ├── .env                    # API keys (not committed to git)
