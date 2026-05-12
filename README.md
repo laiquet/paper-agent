@@ -71,7 +71,7 @@ paper-reader-agent/
 ### 1. Clone & Setup
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/laiquet/paper-agent.git
 cd paper-reader-agent
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
