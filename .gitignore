@@ -1,0 +1,30 @@
+# Environment & secrets
+.env
+venv/
+
+# Vector store (large, regenerable)
+chroma_db/
+
+# Downloaded papers (large PDFs)
+papers/
+
+# Summaries (large)
+summaries/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
